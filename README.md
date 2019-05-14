@@ -12,7 +12,7 @@ Imitate Apple Keyboard Bubble Hint
 ----
 ##### 1. private lazy var hintView = SCRHintView() // init an instance of hint view
 ----
-##### 2. view.addSubview(hintView) // add hintView to the controller's view or to the window when buttons are used as keyboard'skeys
+##### 2. view.addSubview(hintView) // add hintView to the controller's view or to the window when buttons are used as keyboard's keys
 ----
 ##### 3. hintView.icon = SCRHintIcon(image: nil, text: button.titleLabel?.text) // set hintView display content, image or text
 ----
